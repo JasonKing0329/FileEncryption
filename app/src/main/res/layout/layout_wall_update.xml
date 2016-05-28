@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/wall_background"
+    android:background="@android:color/black" >
+    
+	<android.support.v7.widget.RecyclerView  
+        android:id="@+id/wall_gallery"  
+        android:layout_width="wrap_content"  
+        android:layout_height="match_parent"
+		android:background="@android:color/transparent"
+        android:scrollbars="none" />
+	
+	<include layout="@layout/actionbar_l"
+	    android:id="@+id/actionbar"/>
+	
+	<LinearLayout 
+	    android:id="@+id/bottombar"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/actionbar_height"
+	    android:layout_alignParentBottom="true"
+	    android:gravity="center_vertical"
+	    android:background="@color/actionbar_bk_wallgalerry">
+		<CheckBox 
+		    android:id="@+id/wall_show_file_name"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="10dp"
+		    android:button="@drawable/checkbox_bk"
+		    android:text="@string/wall_show_file_name"
+		    android:textColor="@color/white"/>
+		<RadioGroup 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingRight="10dp"
+		    android:orientation="horizontal">
+		    <RadioButton 
+		        android:id="@+id/wall_image_fitxy"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/wall_image_fitxy"
+		    	android:textColor="@color/white"/>
+		    <RadioButton 
+		        android:id="@+id/wall_image_centercrop"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/wall_image_centrecrop"
+		    	android:textColor="@color/white"/>
+		    <RadioButton 
+		        android:id="@+id/wall_image_origin"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/wall_image_origin"
+		    	android:textColor="@color/white"/>
+		</RadioGroup>
+	</LinearLayout>
+	
+	<RelativeLayout 
+	    android:id="@+id/wall_mirror"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+		android:visibility="gone">
+		<ImageView 
+		    android:id="@+id/wall_mirror_img"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:scaleType="fitXY"/>
+	</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu_cover_thumb"
+        android:title="@string/menu_thumb_folder"/>
+    <item android:id="@+id/menu_book_view"
+        android:title="@string/menu_book_view"/>
+</menu>

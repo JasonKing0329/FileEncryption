@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center">
+    <LinearLayout 
+        android:id="@+id/sorder_grid_item_layout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="@dimen/sorder_grid_bk_margin"
+	    android:padding="@dimen/sorder_grid_bk_margin"
+	    android:background="@drawable/selector_order_background"
+	    android:orientation="vertical" 
+    	android:gravity="center">
+    	<com.king.app.fileencryption.sorder.view.MultiCoverView 
+	        android:id="@+id/sorder_grid_multicover"
+		    android:layout_width="@dimen/sorder_grid_cover_width"
+		    android:layout_height="@dimen/sorder_grid_cover_height"
+		    android:scaleType="fitCenter"
+    	    />
+	    <TextView 
+	        android:id="@+id/sorder_grid_name"
+		    android:layout_width="@dimen/sorder_grid_name_width"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="@dimen/sorder_grid_name_marginTop"
+		    android:gravity="center"
+		    android:textSize="@dimen/sorder_grid_name_textsize"
+	        />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    <ImageView 
+        android:id="@+id/adapter_filelist_icon"
+	    android:layout_width="@dimen/filelist_icon_size"
+	    android:layout_height="@dimen/filelist_icon_size"
+	    android:gravity="center_vertical"
+        />
+	<TextView 
+        android:id="@+id/adapter_filelist_name"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:textSize="@dimen/filelist_text_size"
+	    android:layout_marginLeft="@dimen/filelist_vertical_distance"
+	    android:layout_marginRight="@dimen/filelist_vertical_distance"
+	    />
+	<TextView 
+        android:id="@+id/adapter_filelist_imagewh"
+	    android:layout_width="@dimen/filelist_imagewh_width"
+	    android:layout_height="wrap_content"
+	    android:gravity="right"
+	    android:textSize="@dimen/filelist_text_size"
+	    android:layout_marginLeft="@dimen/filelist_vertical_distance"
+	    android:layout_marginRight="@dimen/filelist_vertical_distance"
+	    android:visibility="gone"
+	    />
+	<TextView 
+        android:id="@+id/adapter_filelist_date"
+	    android:layout_width="@dimen/filelist_date_width"
+	    android:layout_height="wrap_content"
+	    android:gravity="right"
+	    android:textSize="@dimen/filelist_text_size"
+	    android:layout_marginRight="@dimen/filelist_vertical_distance"
+	    />
+</LinearLayout>

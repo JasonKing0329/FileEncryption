@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/layout_page_spicture_gallery"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="@color/spicture_backgroud">
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	    <com.king.app.fileencryption.publicview.HorizontalGallery
+	        android:id="@+id/horizontalGallery"
+	        android:visibility="gone"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+			android:background="@color/transparent"/>
+	     
+	    <ListView
+	        android:id="@+id/spicture_chooser_portrait"
+		    android:layout_width="@dimen/spicture_chooser_item_width"
+		    android:layout_height="match_parent"
+			android:background="@color/spicture_backgroud"
+		    android:layout_alignParentRight="true"
+	        />
+	    
+	     <LinearLayout 
+	         	android:id="@+id/spicture_image_container"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent" 
+			    android:layout_above="@id/horizontalGallery"
+			    android:layout_toLeftOf="@id/spicture_chooser_portrait"
+			    android:gravity="center"
+	    		android:background="@color/spicture_backgroud"
+	    		android:orientation="vertical">
+		     <ImageView 
+		        android:id="@+id/spicture_imageview"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent" 
+			    android:scaleType="matrix"
+		         />
+		     
+		     <LinearLayout 
+		        android:id="@+id/spicture_gifview"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content" 
+				    android:orientation="vertical"/>
+	     </LinearLayout>
+	
+	</RelativeLayout>
+
+</LinearLayout>

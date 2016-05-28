@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="setting_auto_play_time">
+	    <item>快</item>
+	    <item>中</item>
+	    <item>慢</item>
+    </string-array>
+    
+    <string-array name="setting_auto_play_mode">
+	    <item>顺序播放</item>
+	    <item>随机播放</item>
+	    <item>可重复随机播放</item>
+    </string-array>
+    
+    <string-array name="setting_sorder_mode">
+	    <item>无序</item>
+	    <item>按名称</item>
+	    <item>按日期</item>
+	    <item>按列表包含内容数量</item>
+    </string-array>
+    <string-array name="anim_type">
+	    <item>淡入淡出效果</item>
+	    <item>放大淡出效果</item>
+	    <item>转动淡出效果1</item>
+	    <item>转动淡出效果2</item>
+	    <item>左上角展开淡出效果</item>
+	    <item>压缩变小淡出效果</item>
+	    <item>右往左推出效果</item>
+	    <item>下往上推出效果</item>
+	    <item>左右交错效果</item>
+	    <item>放大淡出效果</item>
+	    <item>缩小效果</item>
+	    <item>上下交错效果</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingLeft="@dimen/saveas_spinner_item_padding_hor"
+    android:paddingRight="@dimen/saveas_spinner_item_padding_hor"
+    android:paddingTop="@dimen/saveas_spinner_item_padding_ver"
+    android:paddingBottom="@dimen/saveas_spinner_item_padding_ver">
+    <TextView 
+        android:id="@+id/saveas_spinner_text"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="@dimen/saveas_spinner_item_text_size"
+	    android:textColor="@android:color/black"/>
+
+</LinearLayout>

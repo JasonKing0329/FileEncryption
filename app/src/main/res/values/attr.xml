@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="actionbar_bk_color" format="reference"/>
+    <attr name="actionbar_bk_color_alpha" format="reference"/>
+    <attr name="default_folder" format="reference"/>
+    <attr name="path_indicator_bk" format="reference"/>
+    <attr name="path_indicator_press" format="reference"/>
+    
+    <attr name="rightPadding" format="dimension" />
+    <attr name="leftPadding" format="dimension" />
+
+    <declare-styleable name="SlidingMenuLeft">
+        <attr name="rightPadding" />
+        <attr name="leftPadding" />
+    </declare-styleable>
+    
+</resources>

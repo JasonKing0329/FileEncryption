@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="oval">
+    <padding android:left="@dimen/page_index_padding"
+        android:top="@dimen/page_index_padding"
+        android:right="@dimen/page_index_padding"
+        android:bottom="@dimen/page_index_padding"/>
+    <size android:width="@dimen/page_index_bk_size" android:height="@dimen/page_index_bk_size"/>
+    <solid android:color="?attr/actionbar_bk_color"/>
+	<!--corners android:radius="@dimen/page_index_bk_radius"/-->
+	<!-- stroke android:width="@dimen/custom_dialog_icon_frame_width" android:color="@color/custom_dialog_icon_bk_frame"/ -->
+</shape>

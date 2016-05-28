@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/layout_page_spicture_gallery"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="@color/spicture_backgroud">
+    <include layout="@layout/access_private"/>
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	     <HorizontalScrollView
+		    android:id="@+id/spicture_chooser_container"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+	    	android:background="@color/spicture_backgroud"
+			android:layout_alignParentBottom="true">
+		    <com.king.app.fileencryption.spicture.view.ChooserView 
+		        android:id="@+id/spicture_chooser_landscape"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+		        />
+	     </HorizontalScrollView>
+	     
+	     <LinearLayout 
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent" 
+			    android:layout_above="@id/spicture_chooser_container"
+			    android:gravity="center"
+	    		android:background="@color/spicture_backgroud"
+	    		android:orientation="vertical">
+		     <ImageView 
+		        android:id="@+id/spicture_imageview"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent" 
+			    android:scaleType="matrix"
+		         />
+		     
+		     <LinearLayout 
+		        android:id="@+id/spicture_gifview"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content" 
+				    android:orientation="vertical"/>
+	     </LinearLayout>
+	
+	</RelativeLayout>
+
+</LinearLayout>

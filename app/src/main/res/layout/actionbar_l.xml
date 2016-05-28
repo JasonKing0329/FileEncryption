@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:background="?attr/actionbar_bk_color"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <ImageView 
+        style="@style/ActionbarIcon_L"
+        android:id="@+id/actionbar_back"
+	    android:layout_width="@dimen/actionbar_icon_width"
+	    android:layout_height="match_parent"
+	    android:src="@drawable/actionbar_back"/>
+
+    <ImageView 
+        android:id="@+id/actionbar_title_icon"
+	    android:layout_width="@dimen/actionbar_icon_width"
+	    android:layout_height="match_parent"
+		android:layout_toRightOf="@id/actionbar_back"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+	    android:scaleType="fitCenter"
+	    android:visibility="gone"/>
+    <HorizontalScrollView 
+	    android:layout_width="0dp"
+	    android:layout_weight="1"
+	    android:layout_height="match_parent"
+	    android:scrollbars="none">
+	    <TextView
+	        android:id="@+id/actionbar_title"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:gravity="center"
+		    android:textSize="20dp"
+		    android:textColor="@color/white"
+		    android:text="Title"/>
+    </HorizontalScrollView>
+    
+    <RelativeLayout 
+	    android:id="@+id/actionbar_search_layout"
+	    android:layout_width="@dimen/actionbar_search_width"
+	    android:layout_height="match_parent"
+		android:gravity="center_vertical"
+		android:visibility="gone">
+	    <EditText 
+	        android:id="@+id/actionbar_search_edittext"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:paddingLeft="15dp"
+    		android:background="@drawable/shape_actionbar_search_frame"/>
+        
+	    <ImageView 
+        	style="@style/ActionbarCloseIcon"
+	        android:id="@+id/actionbar_search_close"
+		    android:layout_width="@dimen/actionbar_icon_width"
+		    android:padding="@dimen/actionbar_icon_padding"
+		    android:layout_height="match_parent"
+		    android:layout_alignParentRight="true"
+		    android:src="@drawable/actionbar_cancel"/>
+    
+    </RelativeLayout>
+		    
+    <HorizontalScrollView 
+		android:id="@+id/actionbar_icon_container"
+	    android:layout_width="@dimen/actionbar_icon_max_width"
+	    android:layout_height="match_parent"
+	    android:scrollbars="none">
+    	<LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="right"
+		    android:gravity="right">
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_delete"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+			    android:src="@drawable/actionbar_delete"
+				android:visibility="gone"/>
+		    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_change"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+			    android:src="@drawable/actionbar_random"
+				android:visibility="gone"/>
+		    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_refresh"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+			    android:src="@drawable/actionbar_refresh"
+				android:visibility="gone"/>
+		    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_fullscreen"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+			    android:src="@drawable/actionbar_fullscreen"
+				android:visibility="gone"/>
+		    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_random_change"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+			    android:src="@drawable/actionbar_random_change"
+				android:visibility="gone"/>
+		    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_gallery"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+			    android:src="@drawable/optionmenu_icon_multi_windows"
+				android:visibility="gone"/>
+		    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_search"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+			    android:src="@drawable/actionbar_search"
+				android:visibility="gone"/>
+		    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_edit"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+			    android:src="@drawable/actionbar_edit"
+				android:visibility="gone"/>
+		    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_save"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+				android:visibility="gone"
+			    android:src="@drawable/actionbar_save"/>
+		    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_cancel"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+				android:visibility="gone"
+			    android:src="@drawable/actionbar_cancel"/>
+		    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_add"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+			    android:src="@drawable/actionbar_add"
+				android:visibility="gone"/>
+		    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_show"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+				android:visibility="gone"
+			    android:src="@drawable/actionbar_showhide"/>
+				    
+		    <ImageView 
+		        style="@style/ActionbarIcon_L"
+		        android:id="@+id/actionbar_save1"
+			    android:layout_width="@dimen/actionbar_icon_width"
+			    android:layout_height="match_parent"
+				android:visibility="gone"
+			    android:src="@drawable/actionbar_save1"/>
+		    
+	    </LinearLayout>
+	</HorizontalScrollView>
+	
+    <ImageView 
+        style="@style/ActionbarIcon_L"
+        android:id="@+id/actionbar_menu"
+	    android:layout_width="@dimen/actionbar_icon_width"
+	    android:layout_height="match_parent"
+	    android:src="@drawable/actionbar_menu"
+		android:visibility="gone"/>
+    
+</LinearLayout>

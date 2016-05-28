@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="spicture_view_height">295dp</dimen>
+    <dimen name="spicture_view_width">543dp</dimen>
+</resources>

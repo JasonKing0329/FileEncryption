@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/tabactionbar_l"
+        android:id="@+id/mv_actionbar"/>
+    
+    <include layout="@layout/access_private"/>
+    
+    <FrameLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+        android:background="@color/white">
+	    <FrameLayout
+	        android:id="@+id/fragment_page"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+        	android:background="@color/white"/>
+	    <ImageView 
+	        android:id="@+id/page_anim_view"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:visibility="gone"
+	    	android:scaleType="fitXY"/>
+		<com.king.app.fileencryption.publicview.DragImageView 
+	        android:id="@+id/mainview_drag_browser"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:visibility="gone"/>
+	</FrameLayout>
+</LinearLayout>

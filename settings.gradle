@@ -1,0 +1,1 @@
+include ':app', ':LibStickyGridHeaders', ':LibColorPicker', ':PrjColorPicker', ':LibResManager', ':LibTool', ':LibGifImageView', ':PrjSaveAsDialog'

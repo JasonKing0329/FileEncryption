@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="filelist_longclick_action_encrypt">
+        <item>@string/filemanager_encrypt</item>
+        <item>@string/filemanager_delete</item>
+    </string-array>
+    
+    <string-array name="filelist_longclick_action_decipher">
+        <item>@string/filemanager_decipher</item>
+        <item>@string/filemanager_delete</item>
+    </string-array>
+    
+    <string-array name="filelist_longclick_action_folder">
+        <item>@string/filemanager_delete</item>
+        <item>@string/openby_wall</item>
+        <item>@string/menu_fullscreen</item>
+        <item>@string/menu_book_view</item>
+    </string-array>
+    
+    <string-array name="spicture_longclick">
+        <item>@string/add_to_order</item>
+        <item>@string/set_as_cover</item>
+        <item>@string/view_details</item>
+    </string-array>
+    
+    <string-array name="spicture_orderview_longclick">
+        <item>@string/add_to_order</item>
+        <item>@string/set_as_cover</item>
+        <item>@string/view_details</item>
+        <item>@string/delete_from_order</item>
+    </string-array>
+    <string-array name="thumb_folder_item_longclick">
+        <item>@string/add_to_order</item>
+        <item>@string/set_as_cover</item>
+        <item>@string/view_details</item>
+        <item>@string/sorder_delete</item>
+    </string-array>
+    
+    <string-array name="sorder_longclick">
+        <item>@string/sorder_rename</item>
+        <item>@string/sorder_delete</item>
+        <item>@string/sorder_decipher_as_folder</item>
+        <item>@string/menu_fullscreen</item>
+        <item>@string/sorder_access_count</item>
+        <item>@string/openby_wall</item>
+        <item>@string/menu_book_view</item>
+        <item>@string/sorder_preview</item>
+    </string-array>
+    
+    <string-array name="anim_type">
+	    <item>淡入淡出效果</item>
+	    <item>放大淡出效果</item>
+	    <item>转动淡出效果1</item>
+	    <item>转动淡出效果2</item>
+	    <item>左上角展开淡出效果</item>
+	    <item>压缩变小淡出效果</item>
+	    <item>右往左推出效果</item>
+	    <item>下往上推出效果</item>
+	    <item>左右交错效果</item>
+	    <item>放大淡出效果</item>
+	    <item>缩小效果</item>
+	    <item>上下交错效果</item>
+    </string-array>
+    
+    <string-array name="sorder_priority">
+	    <item>@string/priority_cancel</item>
+	    <item>@string/priority_increase</item>
+	    <item>@string/priority_decrease</item>
+    </string-array>
+    
+    <string-array name="sorder_new_priority">
+	    <item>@string/priority_set</item>
+    </string-array>
+    
+    <string-array name="setting_start_view_key">
+	    <item>setting_start_view_classic</item>
+	    <item>setting_start_view_guide</item>
+	    <item>setting_start_view_timeline</item>
+    </string-array>
+    
+    <string-array name="setting_start_view">
+	    <item>@string/setting_start_view_classic</item>
+	    <item>@string/setting_start_view_guide</item>
+	    <item>@string/setting_start_view_timeline</item>
+    </string-array>
+    
+    <string-array name="setting_auto_play_time">
+	    <item>fast</item>
+	    <item>middle</item>
+	    <item>slow</item>
+    </string-array>
+    
+    <string-array name="setting_auto_play_mode">
+	    <item>Sequence</item>
+	    <item>Random</item>
+	    <item>Repeatable</item>
+    </string-array>
+    
+    <string-array name="thumbfolder_init_modes" translatable="false">
+	    <item>Folder</item>
+	    <item>SOrder</item>
+	    <item>@string/add_to_order</item>
+    </string-array>
+    
+    <string-array name="setting_waterfall_col" translatable="false">
+	    <item>2</item>
+	    <item>3</item>
+    </string-array>
+    
+    <string-array name="setting_waterfall_col_hor" translatable="false">
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+    </string-array>
+    
+    <string-array name="setting_cover_cascade_num" translatable="false">
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+    </string-array>
+    
+    <string-array name="setting_slidingmenu_mode">
+	    <item>@string/setting_slidingmenu_left</item>
+	    <item>@string/setting_slidingmenu_right</item>
+	    <item>@string/setting_slidingmenu_twoway</item>
+    </string-array>
+    
+    <string-array name="setas_menubk_mode">
+	    <item>@string/setting_slidingmenu_left</item>
+	    <item>@string/setting_slidingmenu_right</item>
+	    <item>@string/setas_menubk_land_left</item>
+	    <item>@string/setas_menubk_land_right</item>
+    </string-array>
+    
+    <string-array name="setting_slidingmenu_mode_value" translatable="false">
+	    <item>left</item>
+	    <item>right</item>
+	    <item>twoway</item>
+    </string-array>
+    
+    <string-array name="setting_sorder_mode">
+	    <item>No order</item>
+	    <item>By name</item>
+	    <item>By date</item>
+	    <item>By item number</item>
+    </string-array>
+    
+    <string-array name="crop_area_size" translatable="false">
+	    <item>200*200</item>
+	    <item>240*320</item>
+	    <item>320*480</item>
+	    <item>400*400</item>
+	    <item>480*800</item>
+	    <item>540*960</item>
+	    <item>600*600</item>
+	    <item>800*800</item>
+	    <item>800*1280</item>
+	    <item>1080*1920</item>
+	    <item>1440*2560</item>
+    </string-array>
+    
+    <string-array name="setting_auto_play_time_key" translatable="false">
+	    <item>setting_auto_play_time_fast</item>
+	    <item>setting_auto_play_time_middle</item>
+	    <item>setting_auto_play_time_slow</item>
+    </string-array>
+    
+    <string-array name="setting_auto_play_mode_key" translatable="false">
+	    <item>setting_auto_play_mode_sequence</item>
+	    <item>setting_auto_play_mode_random</item>
+	    <item>setting_auto_play_mode_repeatable</item>
+    </string-array>
+    
+    <string-array name="setting_sorder_mode_key" translatable="false">
+	    <item>setting_sorder_mode_no</item>
+	    <item>setting_sorder_mode_name</item>
+	    <item>setting_sorder_mode_date</item>
+	    <item>setting_sorder_mode_item_number</item>
+    </string-array>
+    
+    <string-array name="fullscreen_setting">
+	    <item>@string/fullscreen_setting_sequence</item>
+	    <item>@string/fullscreen_setting_random_repeat</item>
+    </string-array>
+    <string-array name="fullscreen_more">
+        <item>@string/set_as_cover</item>
+        <item>@string/action_settings</item>
+    </string-array>
+    <string-array name="theme_key" translatable="false">
+        <item>blue</item>
+        <item>green</item>
+        <item>lightgreen</item>
+        <item>orange</item>
+        <item>deepblue</item>
+        <item>purple</item>
+    </string-array>
+    <string-array name="game_edit_drop" translatable="false">
+	    <item>Folder</item>
+	    <item>SOrder</item>
+	    <item>Add to Order</item>
+	    <item>Clear</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <ImageView 
+        android:id="@+id/thumb_item_image"
+	    android:layout_width="@dimen/thumbfolder_image_width"
+	    android:layout_height="@dimen/thumbfolder_image_width"
+	    android:scaleType="fitXY"/>
+    <CheckBox 
+        android:id="@+id/thumb_item_checkbox"
+	    android:layout_width="@dimen/thumbfolder_cbox_width"
+	    android:layout_height="@dimen/thumbfolder_cbox_width"
+	    android:visibility="gone"
+	    android:background="@color/thumb_image_item_checkbox_bk"
+        />
+
+</FrameLayout>

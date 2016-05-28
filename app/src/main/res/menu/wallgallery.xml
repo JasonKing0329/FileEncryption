@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_wall_setaswall"
+        android:title="@string/menu_wall_savewall"/>
+    <item android:id="@+id/menu_thumb_addtooder"
+        android:title="@string/add_to_order"/>
+    <item android:id="@+id/menu_thumb_setascover"
+        android:title="@string/set_as_cover"/>
+    <item android:id="@+id/menu_thumb_viewdetail"
+        android:title="@string/view_details"/>
+    
+    <item android:id="@+id/menu_thumb_selectall"
+        android:title="@string/menu_thumb_selectall"/>
+    <item android:id="@+id/menu_thumb_deselectall"
+        android:title="@string/menu_thumb_deselectall"/>
+    <item android:id="@+id/menu_thumb_waterfall"
+        android:title="@string/menu_thumb_waterfall"/>
+</menu>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">设置</string>
+    
+    <string name="save">保存</string>
+    <string name="no_content">无内容</string>
+    <string name="save_success">保存成功</string>
+    <!--************************** mainview public **************************-->
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="allno">全部否</string>
+    <string name="ok">确定</string>
+    <string name="giveup">放弃</string>
+    <string name="cancel">取消</string>
+    <string name="loading">加载中&#8230;</string>
+    <string name="tab_filemanager">文件管理器</string>
+    <string name="tab_sorder">我的列表</string>
+    <string name="tab_spicture">图库</string>
+    <string name="identity_check">身份验证</string>
+    <string name="checking">检查中&#8230;</string>
+    <string name="success">成功！</string>
+    <string name="failed">失败！</string>
+    <string name="warning">警告</string>
+    <string name="restart_need_unlock">重新进入应用程序需要验证身份，验证成功后方可重新进入“完全开放”模式！</string>
+    <string name="encrypt_check_service_isexist">%d个文件未加密，点击确定以加密！</string>
+    <string name="encrypt_check_service_encryptok">加密任务完成！</string>
+    <string name="encrypt_check_service_isnotexist">所有文件已加密！</string>
+
+    <!--************************** error information **************************-->
+    <string name="error_app_root_create_fail">创建应用程序根目录失败！</string>
+    <string name="error_database_create_fail">创建应用程序数据库文件失败！</string>
+    <string name="error_app_root_not_exist">应用程序根目录不存在！</string>
+    <string name="error_msg_title">错误信息</string>
+    
+    <!--************************** login **************************-->
+    <string name="login_user">用户名</string>
+    <string name="login_pwd">密码</string>
+    <string name="login_pwd_error">错误</string>
+    <string name="login_fingerprint">指纹解锁</string>
+    <string name="login_finger_not_register">设备尚未注册任何指纹，请先注册指纹！</string>
+    
+    <string name="login_loading_text">服务更新中&#8230;&#8230;</string>
+    <string name="login_start_service_insert">是否检查新增文件？全部否则跳过所有服务。</string>
+    <!--************************** mode init **************************-->
+    <string name="mode_init_title">登陆模式</string>
+    <string name="mode_init_next">下一步 -></string>
+    <string name="mode_init_public">完全开放</string>
+    <string name="mode_init_public_warning">一旦选择“完全开放”模式，每一步均不需要身份验证，该模式需要密码解锁！！</string>
+    <string name="mode_init_filemanager">文件管理器</string>
+    <string name="mode_init_filemanager_warning">一旦选择“文件管理器”模式，仅能执行文件系统操作！！</string>
+    <string name="mode_init_private">私密</string>
+    <string name="mode_init_private_warning">一旦选择“私密”模式，关键步骤均会进行身份验证！！</string>
+    <string name="mode_init_next_fail">密码错误，请修改或者转入其他模式！</string>
+    
+    <!--************************** menu **************************-->
+    <string name="menu_file_create_folder">创建目录</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_random">随便看看</string>
+    <string name="menu_rank">排名</string>
+    <string name="menu_order">当前列表</string>
+    <string name="menu_mode_switch">切换权限</string>
+    <string name="menu_edit">编辑</string>
+    <string name="menu_export">导出数据</string>
+    <string name="menu_view_gallery">图库视图</string>
+    <string name="menu_fullscreen">全屏浏览</string>
+    <string name="menu_view_grid">网格视图</string>
+    <string name="menu_view_list">列表视图</string>
+    <string name="menu_view_current_folder">当前目录</string>
+    <string name="menu_encrypt_current_folder">加密当前目录</string>
+    <string name="menu_decipher_current_folder">解密当前目录</string>
+    <string name="menu_load">载入</string>
+    <string name="menu_change_theme">更换主题</string>
+    <string name="menu_create_order">添加新列表</string>
+    <string name="menu_by_name">按名称排序</string>
+    <string name="menu_by_date">按时间排序</string>
+    <string name="menu_shuffle_gallery">随机排序</string>
+    <string name="menu_random_game">Random game</string>
+    <string name="menu_auto_play">自动播放</string>
+    <string name="menu_stop_auto_play">停止自动播放</string>
+    <string name="menu_check_all_unencrypted">检查所有未加密文档</string>
+    
+    <string name="menu_thumb_selectall">全选</string>
+    <string name="menu_thumb_deselectall">取消全选</string>
+    <string name="menu_fullscreen_swipemode">翻页模式</string>
+    <string name="menu_wall_scaletype">改变图片填充模式</string>
+    <string name="menu_wall_savewall">设为默认墙纸</string>
+    
+    <string name="menu_thumb_waterfall">瀑布流视图</string>
+    <string name="menu_view_all">浏览所有图片</string>
+    
+    <string name="menu_cover_single">单张封面</string>
+    <string name="menu_cover_cascade">层叠封面</string>
+    <string name="menu_cover_cascade_rotate">旋转层叠封面</string>
+    <string name="menu_cover_grid">宫格封面</string>
+    <!--************************** mainview file list **************************-->
+    <string name="filemanager_encrypt">加密</string>
+    <string name="filemanager_decipher">解密</string>
+    <string name="filemanager_delete">删除</string>
+    <string name="menu_new_folder">添加新目录</string>
+    <string name="filelist_tag_name">文件名称</string>
+    <string name="filelist_tag_time">最后修改时间</string>
+    <string name="filelist_tag_wh">图像大小</string>
+    <string name="filelist_parent">..上级</string>
+    <string name="filelist_radio_all">全部</string>
+    <string name="filelist_radio_encrypted">已加密</string>
+    <string name="filelist_radio_unencrypted">未加密</string>
+    <string name="filelist_delete">删除</string>
+    <string name="filelist_delete_msg">确认删除？</string>
+    <string name="filelist_delete_empty_folder">空目录，确认删除？</string>
+    <string name="filelist_delete_folder">当前目录包含文件，确定删除？</string>
+    <string name="filelist_delete_fodler_deny">该目录包含超过10个子文件或子目录，应用程序不允许删除！</string>
+    <string name="filelist_encrypt_fail">加密失败！</string>
+    <string name="filelist_decipher_fail">解密失败！</string>
+    <string name="filelist_folder_already_exist">目录已存在，请输入其他目录名。</string>
+    
+    <string name="load_from_warning_msg">选择数据库将替换默认数据库，确定继续？</string>
+    
+    <string name="folderdlg_moving">正在移动， %d已完成&#8230;</string>
+    <string name="folderdlg_option_rule1">按照程序约束，不能再包含子目录的目录下存放图片！</string>
+    <string name="folderdlg_alreadyexist">目标目录已存在！</string>
+    <!--************************** mainview spicture **************************-->
+    <string name="spicture_myorders">我的列表</string>
+    <string name="spicture_myorders_noorder">尚未创建目录</string>
+    <string name="spicture_myorders_add_ok">成功添加至 “%s”！</string>
+    <string name="spicture_myorders_add_fail">添加至“%s”失败！</string>
+    <string name="spicture_myorders_set_cover_ok">成功设置列表“%s”封面！</string>
+    <string name="spicture_myorders_set_cover_fail">设置列表“%s”封面失败！</string>
+    <string name="spicture_myorders_delete_item_ok">从列表“%s"删除成功！</string>
+    <string name="spicture_myorders_item_exist">图片已存在于列表“%s"中，确认重复添加？</string>
+    <string name="spicture_details">详情</string>
+    <string name="spicture_details_fname">【文件名】 </string>
+    <string name="spicture_details_oname">【源文件名】 </string>
+    <string name="spicture_details_fpath">【文件路径】 </string>
+    <string name="spicture_details_wh">【图像大小】</string>
+    <string name="spicture_autoplay_tooless">当前目录图片少于%d个，不支持自动播放功能！</string>
+    <string name="spicture_autoplay_time">设置自动播放间隔（单位：ms）</string>
+    <string name="spicture_autoplay_finish">当前图库已播放完毕！</string>
+    <string name="spicture_fullscreen_not_support">当前模式下不支持全屏模式！</string>
+    
+    <!--************************** mainview sorder **************************-->
+    <string name="sorder_delete_fail">删除失败！</string>
+    <string name="sorder_rename_fail">重命名失败！</string>
+    <string name="sorder_success">成功！</string>
+    <string name="sorder_create_fail">创建失败！</string>
+    <string name="sorder_name_already_exist">错误 ： 列表已存在！</string>
+    <string name="sorder_warning_delete">列表内容不为空，确认删除？</string>
+    
+    <string name="add_to_order">添加至列表</string>
+    <string name="set_as_cover">设置封面</string>
+    <string name="view_details">查看详情</string>
+    <string name="move_to_folder">移动</string>
+    <string name="delete_from_order">从列表中删除</string>
+    <string name="sorder_delete">删除</string>
+    <string name="sorder_no_tag">尚未创建任何标签！</string>
+    <string name="sorder_new_tag">+ 新标签</string>
+    <string name="sorder_only_new_tag">仅添加新标签</string>
+    <string name="sorder_tag_already_exist">标签已存在！</string>
+    <string name="sorder_order_already_exist">列表已存在！</string>
+    <string name="sorder_create_order">创建列表</string>
+    <string name="sorder_rename">重命名</string>
+    <string name="sorder_preview">预览</string>
+    <string name="sorder_change_tag">改变标签</string>
+    <string name="sorder_access_count">查看访问量</string>
+    <string name="openby_wall">通过照片墙打开</string>
+    <string name="sorder_delete_tag_warning">当前标签包含不止一个列表，需要3次确认以删除标签！还剩 %d 次确认。</string>
+    <string name="sorder_decipher_as_folder">Decipher as folder</string>
+    <string name="input_no_null">输入内容不能为空！</string>
+    <string name="sorder_next_page">下一页</string>
+    <string name="sorder_previous_page">Previous page</string>
+    <string name="tag">标签</string>
+    <string name="new_order_name">新建列表名</string>
+    <!--************************** sorder chooser **************************-->
+    <string name="priority_set">设置优先</string>
+    <string name="priority_cancel">取消优先</string>
+    <string name="priority_increase">提高优先级</string>
+    <string name="priority_decrease">降低优先级</string>
+    <!--**************************  random game **************************-->
+    <string name="rgame_menu_rule">设置规则</string>
+    <string name="rgame_menu_new">新建</string>
+    <string name="rgame_menu_load">载入</string>
+    <string name="rgame_menu_saveas">另存为</string>
+    <string name="rgame_select_order">选择列表</string>
+    <string name="rgame_start">开始</string>
+    <string name="rgame_stop">停止</string>
+    <string name="rgame_auto">自动</string>
+    <string name="rgame_continue">继续</string>
+    <string name="rgame_manual">手动</string>
+    <string name="rgame_replace">替换之前</string>
+    <string name="rgame_followby">紧随其后</string>
+    <string name="rgame_repeatable">可重复</string>
+    <string name="rgame_image_thread_on">显示滚动过程</string>
+    <string name="rgame_scene_on">随机场景</string>
+    <string name="rgame_random_number">随机总数</string>
+    <string name="rgame_rule_number_null">请输入要进行随机的总数。</string>
+    <string name="rgame_rule_setok">设置规则生效！</string>
+    <string name="rgame_restart_circle">重启新一轮</string>
+    <string name="rgame_set_rule_first">请先设置随机规则！</string>
+    <string name="rgame_no_random_item">已无可随机子项！</string>
+    <string name="rgame_img_random_unfinish">图像随机过程尚未结束， 剩余 %d.</string>
+    <string name="rgame_check_error_exit">密码错误，自动退出！</string>
+    <string name="rgame_random_scene">随机场景</string>
+    
+    <!--************************** setting preference **************************-->
+    <string name="setting_mode">访问模式</string>
+    <string name="setting_enable_fingerprint">启用指纹验证</string>
+    <string name="setting_enable_private">激活私密模式</string>
+    <string name="setting_start_view">启动界面</string>
+    <string name="setting_show_oriname">显示原名</string>
+    <string name="setting_show_oriname_summary">所有已加密文件将显示原文件名。</string>
+    <string name="setting_open_random">以随机顺序打开</string>
+    <string name="setting_open_random_summary">打开图库时，图片将以随机顺序显示</string>
+    <string name="setting_edit_casual_number">随便看看数量</string>
+    <string name="setting_edit_casual_number_summary">改变随便看看的所有图片数量。</string>
+    <string name="setting_show_animation">显示动画效果</string>
+    <string name="setting_min_items">最低图片数量</string>
+    <string name="setting_min_items_summary">当图库包含图片达到该值，程序才支持自动播放功能。</string>
+    <string name="setting_auto_play_speed">速度</string>
+    <string name="setting_auto_play_mode">播放模式</string>
+    <string name="setting_sorder_mode">显示顺序</string>
+    <string name="setting_sorder_mode_summary">当加载列表时,决定列表的显示顺序。</string>
+    <string name="setting_sorder_enable_page">启用翻页模式</string>
+    <string name="setting_sorder_set_page_numbers">设置每页数量</string>
+    <string name="setting_sorder_cover_cascade_num">层叠封面数量</string>
+    <string name="setting_waterfall">瀑布流视图</string>
+    <string name="setting_waterfall_colnumber">竖屏列数</string>
+    <string name="setting_waterfall_colnumber_hor">横屏列数</string>
+    <string name="setting_slidingmenu">Sliding菜单</string>
+    <string name="setting_slidingmenu_mode">位置模式</string>
+    <string name="setting_slidingmenu_left">左侧菜单</string>
+    <string name="setting_slidingmenu_right">右侧菜单</string>
+    <string name="setting_slidingmenu_twoway">双向菜单</string>
+    <string name="setas_menubk_land_left">左侧横屏菜单</string>
+    <string name="setas_menubk_land_right">右侧横屏菜单</string>
+    <string name="setting_slidingmenu_enable">主界面启用</string>
+    <string name="setting_start_view_classic">经典界面</string>
+    <string name="setting_start_view_guide">导视</string>
+    <string name="setting_start_view_timeline">时间线</string>
+    
+    <string name="login_finger_not_support">该设备不支持指纹识别！</string>
+    <!--************************** thumb folder **************************-->
+    <string name="thumb_folder_warning_delete">确认删除选中%d项?</string>
+    <string name="thumb_folder_allfolder">全部目录</string>
+    <string name="thumb_folder_allolder">全部列表</string>
+    <string name="crop_area_error">请调整裁剪区域！</string>
+    <string name="move_src_to_src">源目录与目标目录相同，无法移动： </string>
+    <!--************************** full screen **************************-->
+    <string name="fullscreen_setting_random_repeat">随机可重复</string>
+    <string name="fullscreen_setting_sequence">顺序</string>
+    <string name="fullscreen_setting_random">随机</string>
+    <!--************************** wall **************************-->
+    <string name="wall_wallgallery">图片墙</string>
+    <string name="wall_show_file_name">显示文件名</string>
+    <string name="wall_image_fitxy">拉伸</string>
+    <string name="wall_image_centrecrop">裁切</string>
+    <string name="wall_image_origin">原始</string>
+    
+    <!--************************** showimagedialog **************************-->
+    <string name="showimage_zoom_origin">原始大小</string>
+    <string name="showimage_zoom_1">1.5倍</string>
+    <string name="showimage_zoom_2">2倍</string>
+    <string name="showimage_zoom_3">2.5倍</string>
+    <string name="showimage_zoom_4">3倍</string>
+    
+    <!--************************** team game **************************-->
+    <string name="team_game_title_order">单击随机视图</string>
+    <string name="team_game_item_order_random">执行随机过程</string>
+    <string name="team_game_item_order_change">修改随机列表</string>
+    <string name="team_game_title_afterrandom">随机过程结束后</string>
+    <string name="team_game_item_afterrandom_wait">等待</string>
+    <string name="team_game_item_afterrandom_filltitle">填充标题栏</string>
+    <string name="team_game_item_afterrandom_filldata">填充数据栏</string>
+    <string name="team_game_title_title">单击表格标题栏</string>
+    <string name="team_game_item_title_edit">编辑</string>
+    <string name="team_game_item_title_tm">将随机结果添加至该列数据</string>
+    <string name="team_game_item_title_ne">无效果</string>
+    <string name="team_game_title_data">单击表格数据栏</string>
+    <string name="team_game_item_data_edit">编辑</string>
+    <string name="team_game_item_data_show">显示</string>
+    <string name="team_game_item_data_ne">无效果</string>
+    <string name="team_game_btn_reset1">重置列表1</string>
+    <string name="team_game_btn_reset2">重置列表2</string>
+    <string name="team_game_btn_new">新建</string>
+    <string name="team_game_btn_save">保存</string>
+    <string name="team_game_btn_saveas">另存为</string>
+    <string name="team_game_btn_load">载入</string>
+    <string name="team_game_btn_turn">转化为Random Game数据</string>
+    <string name="team_game_msg_warning_save">是否保存？</string>
+    <string name="team_game_turndata_title">标题</string>
+    <string name="team_game_turndata_file">文件名</string>
+    <string name="team_game_turndata_success">数据转换成功！</string>
+    <!--************************** time line **************************-->
+    <string name="time_line_main">主界面</string>
+    <string name="time_line_guide">导视</string>
+    <string name="time_line_setting">设置</string>
+    <string name="time_line_close">收起</string>
+    <string name="time_line_nocontent">还没有数据~</string>
+    <!--************************** guide **************************-->
+    <string name="guide_timeline">时间线</string>
+    <!--************************** colorpicker **************************-->
+    <string name="colorpicker_update_success">修改成功</string>
+    <string name="colorpicker_update_failed">修改失败</string>
+    
+    <!--************************** surf **************************-->
+    <string name="surf_delete_success">删除成功</string>
+    <string name="surf_delete_fail">删除失败</string>
+    <string name="surf_seize_not_support">Gif图片不支持裁剪</string>
+</resources>

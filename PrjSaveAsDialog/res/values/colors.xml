@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="dlg_saveas_background">#eeeeeeee</color>
+    <color name="dlg_action_text">#19a993</color>
+    <color name="dlg_title">#00a5c4</color>
+    <color name="dlg_folder_item_pressed">#ef9801</color>
+    <color name="dlg_folder_action_text">#a91980</color>
+</resources>

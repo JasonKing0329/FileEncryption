@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+    
+	<com.king.app.fileencryption.surf.ExtendedViewPager 
+	    android:id="@+id/surf_view_pager"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+
+    <!-- layout_height必须设置固定值,wrap_content仍然会充满全屏 -->
+	<android.support.v7.widget.RecyclerView  
+        android:id="@+id/surf_gallery"  
+        android:layout_width="match_parent"  
+        android:layout_height="@dimen/spicture_chooser_item_width"  
+	    android:layout_alignParentBottom="true"
+		android:layout_marginBottom="30dp"
+		android:background="@android:color/transparent"
+        android:scrollbars="none" />
+	<!-- com.king.app.fileencryption.publicview.HorizontalGallery
+	    android:id="@+id/surf_guide"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+		android:layout_marginBottom="30dp"
+		android:scrollbars="none"
+		android:background="@android:color/transparent" / -->
+		
+    <RelativeLayout 
+        android:id="@+id/surf_toolbar_container"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+        
+    </RelativeLayout>
+    
+</RelativeLayout>

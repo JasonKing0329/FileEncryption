@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- spicturepage  -->
+    <dimen name="spicture_chooser_item_width">290px</dimen>
+    <dimen name="spicture_chooser_view_width">800px</dimen>
+    <dimen name="spicture_chooser_view_height">1200px</dimen>
+    
+    <dimen name="thumbfolder_image_width">82dp</dimen>
+    <dimen name="thumbfolder_cbox_width">30dp</dimen>
+    <dimen name="thumbfolder_grid_item_width">70dp</dimen>
+    
+    <dimen name="spicture_view_height">422dp</dimen>
+    
+    <dimen name="fullscreen_toolbar_height">55dp</dimen>
+    <dimen name="fullscreen_toolbar_more_popup_width">150dp</dimen>
+    
+    <dimen name="page_index_layout_width">25dp</dimen>
+    <dimen name="page_index_padding">5dp</dimen>
+    <dimen name="page_index_margin">5dp</dimen>
+    <dimen name="page_index_size">15dp</dimen>
+    
+    <dimen name="sorder_chooser_title_size">30dp</dimen>
+    <dimen name="sorder_chooser_title_magin_left">6dp</dimen>
+    <dimen name="sorder_chooser_add_size">30dp</dimen>
+    <dimen name="sorder_chooser_add_magin_right">3dp</dimen>
+    <dimen name="sorder_chooser_search_width">150dp</dimen>
+    <dimen name="sorder_chooser_search_height">35dp</dimen>
+    <dimen name="sorder_chooser_close_size">30dp</dimen>
+    
+    <!-- surf -->
+    <dimen name="surf_toobar_icon_size">36dp</dimen>
+    <dimen name="surf_toobar_icon_padding">5dp</dimen>
+    <dimen name="surf_toobar_icon_margin">5dp</dimen>
+</resources>

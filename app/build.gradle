@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.king.app.fileencryption"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "7.5.8"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("E:/king/Devolopment/myApp_version/debug_myapp_key.keystore")
+        }
+        release {
+            storeFile file("E:/king/Devolopment/myApp_version/myapp_key.keystore")
+            storePassword "1010520"
+            keyAlias "android.keystore"
+            keyPassword "1010520"
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile project(':LibGifImageView')
+    compile project(':LibColorPicker')
+    compile project(':LibResManager')
+    compile project(':LibStickyGridHeaders')
+    compile project(':LibTool')
+    compile project(':PrjColorPicker')
+    compile project(':PrjSaveAsDialog')
+}

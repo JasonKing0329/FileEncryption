@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.king.app.fileencryption.guide.AutoSwitchView
+        android:id="@+id/guide_autoview_line1_left"
+        android:layout_width="@dimen/guide_line1_left_width"
+        android:layout_height="@dimen/guide_line1_left_height"/>
+
+    <com.king.app.fileencryption.guide.AutoSwitchView
+        android:id="@+id/guide_autoview_line1_right1"
+        android:layout_width="@dimen/guide_line1_right_width"
+        android:layout_height="@dimen/guide_line1_right_height"
+        android:layout_toRightOf="@id/guide_autoview_line1_left" />
+    
+    <com.king.app.fileencryption.guide.AutoSwitchView
+        android:id="@+id/guide_autoview_line1_right2"
+        android:layout_width="@dimen/guide_line1_right_width"
+        android:layout_height="@dimen/guide_line1_right_height"
+        android:layout_toRightOf="@id/guide_autoview_line1_left"
+        android:layout_below="@+id/guide_autoview_line1_right1" />
+    
+    <com.king.app.fileencryption.guide.AutoSwitchView
+        android:id="@+id/guide_line2_square1"
+        android:layout_width="@dimen/guide_line2_square_size"
+        android:layout_height="@dimen/guide_line2_square_size"
+        android:layout_below="@+id/guide_autoview_line1_left" />
+    
+    <com.king.app.fileencryption.guide.AutoSwitchView
+        android:id="@+id/guide_line2_square2"
+        android:layout_width="@dimen/guide_line2_square_size"
+        android:layout_height="@dimen/guide_line2_square_size"
+        android:layout_toRightOf="@id/guide_line2_square1"
+        android:layout_below="@+id/guide_autoview_line1_left" />
+    
+    <com.king.app.fileencryption.guide.AutoSwitchView
+        android:id="@+id/guide_line2_square3"
+        android:layout_width="@dimen/guide_line2_square_size"
+        android:layout_height="@dimen/guide_line2_square_size"
+        android:layout_below="@+id/guide_line2_square1" />
+    
+    <com.king.app.fileencryption.guide.AutoSwitchView
+        android:id="@+id/guide_line2_square4"
+        android:layout_width="@dimen/guide_line2_square_size"
+        android:layout_height="@dimen/guide_line2_square_size"
+        android:layout_toRightOf="@id/guide_line2_square3"
+        android:layout_below="@+id/guide_line2_square1" />
+    
+    <com.king.app.fileencryption.guide.AutoSwitchView
+        android:id="@+id/guide_line2_right"
+        android:layout_width="@dimen/guide_line2_right_width"
+        android:layout_height="@dimen/guide_line2_right_height"
+        android:layout_toRightOf="@id/guide_line2_square2"
+        android:layout_below="@+id/guide_autoview_line1_right2" />
+    
+    <com.king.app.fileencryption.guide.AutoScrollView
+        android:id="@+id/guide_line3_autoscroll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_line3_height"
+        android:layout_below="@+id/guide_line2_square3" />
+    
+    <RelativeLayout
+        android:id="@+id/guide_nocontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+	    android:visibility="gone" >
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/time_line_nocontent"
+	        android:textColor="@color/darkgrey"
+	        android:layout_centerInParent="true"
+	        android:textSize="25sp"
+	        android:textStyle="bold" />
+
+    </RelativeLayout>
+    
+	<View 
+        android:id="@+id/guide_side"
+	    android:layout_width="@dimen/game_team_side_width"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentRight="true"
+	    android:background="@color/transparent"/>
+	<com.king.app.fileencryption.publicview.DragSideBar 
+        android:id="@+id/guide_sidebar"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingLeft="@dimen/dragsidebar_padding_left"/>
+</RelativeLayout>

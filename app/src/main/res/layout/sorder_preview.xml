@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView 
+        android:id="@+id/preview_close"
+	    android:layout_width="@dimen/showimagedialog_icon_width"
+	    android:layout_height="@dimen/showimagedialog_icon_width"
+	    android:src="@drawable/actionbar_cancel"
+	    android:padding="5dp"
+	    android:background="@drawable/selector_fullscreen_toolbar_bk"
+	    android:scaleType="fitCenter"
+	    android:layout_gravity="right"/>
+	<GridView 
+        android:id="@+id/preview_grid"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:horizontalSpacing="@dimen/sorder_preview_space"
+	    android:verticalSpacing="@dimen/sorder_preview_space"
+	    />
+</LinearLayout>

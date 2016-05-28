@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent" >
+    
+    <ImageView
+        android:id="@+id/timeline_indicator_bk"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/timeline_indicator_height"
+        android:scaleType="fitXY" />
+
+	<RelativeLayout 
+	    android:id="@+id/timeline_indicator"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_centerVertical="true"
+	    android:padding="@dimen/timeline_indicator_padding"
+	    android:background="@drawable/shape_timeline_indicator_bk">
+	    <ImageView 
+		    android:id="@+id/timeline_indicator_image"
+		    android:layout_width="@dimen/timeline_menu_width"
+		    android:layout_height="@dimen/timeline_menu_width"/>
+	    
+	    <TextView 
+		    android:id="@+id/timeline_indicator_text"
+		    android:layout_width="@dimen/timeline_indicator_text_width"
+		    android:layout_height="@dimen/timeline_indicator_text_height"
+		    android:layout_toRightOf="@id/timeline_indicator_image"
+		    android:gravity="center_vertical"
+		    android:textColor="@color/white"
+		    android:textSize="@dimen/timeline_indicator_text_date_size"
+		    android:textStyle="bold"
+		    android:layout_marginLeft="@dimen/timeline_indicator_text_margin_left"/>
+	    <TextView 
+		    android:id="@+id/timeline_indicator_num"
+		    android:layout_width="wrap_content"
+		    android:layout_height="@dimen/timeline_indicator_text_height"
+		    android:layout_toRightOf="@id/timeline_indicator_image"
+		    android:layout_below="@id/timeline_indicator_text"
+		    android:gravity="center_vertical"
+		    android:textColor="@color/timeline_indicator_text_num"
+		    android:textSize="@dimen/timeline_indicator_text_num_size"
+		    android:layout_marginLeft="@dimen/timeline_indicator_text_margin_left"/>
+	</RelativeLayout>
+</RelativeLayout>

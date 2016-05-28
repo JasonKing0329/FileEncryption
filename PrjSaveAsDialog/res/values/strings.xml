@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name" translatable="false">PrjSaveAsDialog</string>
+
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="save_success">Save successfully</string>
+    <string name="saveas_filename">File name</string>
+    <string name="saveas_no_content">No content</string>
+    <string name="saveas_select_path">Select path</string>
+    <string name="saveas_title">Save as</string>
+    <string name="saveas_title_notnull">Title can\'t be null!</string>
+    <string name="folderselect_new">Create new folder</string>
+    <string name="folderselect_folder_exist">Target folder already exist!</string>
+</resources>

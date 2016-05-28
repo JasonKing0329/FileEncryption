@@ -1,0 +1,193 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- file list  -->
+    <dimen name="filelist_text_size">16sp</dimen>
+    <dimen name="filelist_vertical_distance">10dp</dimen>
+    <dimen name="filelist_item_height">60dp</dimen>
+    <dimen name="filelist_icon_size">55dp</dimen>
+    <dimen name="filelist_imagewh_width">100dp</dimen>
+    <dimen name="filelist_date_width">150dp</dimen>
+    <dimen name="folderdlg_space_top">200dp</dimen>
+    <dimen name="path_indicator_height">40dp</dimen>
+    <dimen name="path_indicator_text_size">10dp</dimen>
+    
+    <!-- spicturepage  -->
+    <dimen name="spicture_chooser_item_width">150dp</dimen>
+    <dimen name="spicture_chooser_view_width">800px</dimen>
+    <dimen name="spicture_chooser_view_height">1000px</dimen>
+    
+    <!-- login  -->
+    <dimen name="login_user_text_width">200dp</dimen>
+    <dimen name="login_user_edit_width">400dp</dimen>
+    <dimen name="login_ok_width">400dp</dimen>
+    <dimen name="login_first_marginTop">200dp</dimen>
+    <dimen name="login_row_marginLeft">100dp</dimen>
+    
+    <!-- mode init  -->
+    <dimen name="mode_init_next_padding">7dp</dimen>
+    <dimen name="mode_init_next_width">200dp</dimen>
+    <dimen name="mode_init_next_size">25sp</dimen>
+    <dimen name="mode_init_title_size">50sp</dimen>
+    <dimen name="mode_init_firstradio_marginTop">30dp</dimen>
+    <dimen name="mode_init_radio_marginTop">30dp</dimen>
+    <dimen name="mode_init_title_marginTop">50dp</dimen>
+    <dimen name="mode_init_hide_marginTop">30dp</dimen>
+    
+    <!-- soderpage  -->
+    <dimen name="sorder_grid_space_x">20dp</dimen>
+    <dimen name="sorder_grid_space_y">20dp</dimen>
+    <dimen name="sorder_grid_bk_margin">10dp</dimen>
+    <dimen name="sorder_grid_cover_width">300dp</dimen>
+    <dimen name="sorder_grid_cover_height">300dp</dimen>
+    <dimen name="sorder_expand_cover_width">100dp</dimen>
+    <dimen name="sorder_grid_name_width">300dp</dimen>
+    <dimen name="sorder_grid_item_width">320dp</dimen>
+    <dimen name="sorder_grid_name_marginTop">12dp</dimen>
+    <dimen name="sorder_grid_name_textsize">20sp</dimen>
+    <dimen name="sorder_expan_item_padding_ver">10dp</dimen>
+    <dimen name="sorder_expan_item_padding_hori">20dp</dimen>
+    <dimen name="sorder_expan_item_cover_size">60dp</dimen>
+    <dimen name="sorder_expan_item_image_size">50dp</dimen>
+    <dimen name="sorder_expan_preview_size">60dp</dimen><!-- just a little bigger than sorder_expan_item_image_size -->
+    
+    <dimen name="sorder_preview_width">70dp</dimen>
+    <dimen name="sorder_preview_space">2dp</dimen>
+    
+    <dimen name="sorder_cover_menu_width">110dp</dimen>
+    <dimen name="sorder_cover_menu_width_small">110dp</dimen>
+    <dimen name="sorder_cover_menu_textSize">10dp</dimen>
+    <dimen name="sorder_cover_menu_padding">7dp</dimen>
+    <!-- soderpage  -->
+    <dimen name="rgame_image_thread_width">250dp</dimen>
+    
+    <dimen name="thumbfolder_image_width">170dp</dimen>
+    <dimen name="thumbfolder_cbox_width">40dp</dimen>
+    <dimen name="thumbfolder_grid_item_width">140dp</dimen>
+    <dimen name="thumbfolder_folderlist_width">150dp</dimen>
+    <dimen name="thumbfolder_folderlist_cover_image_width">130dp</dimen>
+    <dimen name="thumbfolder_index_width">40dp</dimen>
+    <dimen name="thumbfolder_index_height">40dp</dimen>
+    <dimen name="thumbfolder_index_min_height">30dp</dimen>
+    <dimen name="thumbfolder_index_margin">1dp</dimen>
+    <dimen name="thumbfolder_index_control_width">40dp</dimen>
+    
+    <dimen name="spicture_view_height">1001dp</dimen>
+    
+    <dimen name="fullscreen_toolbar_height">70dp</dimen>
+    <dimen name="fullscreen_toolbar_more_popup_width">300dp</dimen>
+    
+    <dimen name="page_index_layout_width">50dp</dimen>
+    <dimen name="page_index_padding">5dp</dimen>
+    <dimen name="page_index_bk_size">40dp</dimen>
+    <dimen name="page_index_margin">20dp</dimen>
+    <dimen name="page_index_size">20dp</dimen>
+    <dimen name="page_index_fixgrid_item_width_small">50dp</dimen>
+    <dimen name="page_index_fixgrid_item_width_large">50dp</dimen>
+    <dimen name="page_index_padding_hor">20dp</dimen>
+    <dimen name="page_index_padding_ver">10dp</dimen>
+    
+    <dimen name="sorder_chooser_title_size">35dp</dimen>
+    <dimen name="sorder_chooser_title_magin_left">20dp</dimen>
+    <dimen name="sorder_chooser_add_size">50dp</dimen>
+    <dimen name="sorder_chooser_add_magin_right">10dp</dimen>
+    <dimen name="sorder_chooser_search_width">300dp</dimen>
+    <dimen name="sorder_chooser_search_height">56dp</dimen>
+    <dimen name="sorder_chooser_close_size">50dp</dimen>
+    
+    <dimen name="sorder_multicover_cascade_width">130dp</dimen>
+    <dimen name="sorder_multicover_cascade_height">130dp</dimen>
+    <!-- actionbar  -->
+    <dimen name="actionbar_padding">10dp</dimen>
+    <dimen name="actionbar_icon_padding">20dp</dimen>
+    <dimen name="actionbar_tab_text_size">17dp</dimen>
+    <dimen name="actionbar_height">70dp</dimen>
+    <dimen name="actionbar_tab_height">50dp</dimen>
+    <dimen name="actionbar_tab_width_land">120dp</dimen>
+    <dimen name="actionbar_title_width">200dp</dimen>
+    <dimen name="actionbar_icon_width">70dp</dimen><!-- = actionbar_height -->
+    <dimen name="actionbar_search_width">440dp</dimen>
+    <dimen name="tabactionbar_title_width">150dp</dimen>
+    <dimen name="tabactionbar_icon_max_width">350dp</dimen><!-- actionbar_icon_width * 5 -->
+    <dimen name="actionbar_icon_max_width">350dp</dimen><!-- actionbar_icon_width * 5 -->
+    <dimen name="showimagedialog_icon_width">70dp</dimen>
+    
+    <dimen name="custom_dialog_toolbar_icon">50dp</dimen>
+    <dimen name="custom_dialog_title_frame_radius">12dp</dimen>
+    <dimen name="custom_dialog_icon_frame_radius">25dp</dimen>
+    <dimen name="custom_dialog_search_height">50dp</dimen>
+    <dimen name="custom_dialog_title_text_size">35dp</dimen>
+    
+    <!-- wall -->
+    <dimen name="wall_item_image_width">320dp</dimen>
+    <dimen name="wall_item_image_height">190dp</dimen>
+    <dimen name="wall_item_spacing_hori">70dp</dimen>
+    <dimen name="wall_item_spacing_vert">40dp</dimen>
+    <!-- slidingmenu -->
+    <dimen name="slidingmenu_rightpadding">300dp</dimen>
+    <dimen name="slidingmenu_text_size">15dp</dimen>
+    <dimen name="slidingmenu_text_size_small">15dp</dimen>
+    <dimen name="slidingmenu_margin_top">30dp</dimen>
+    <dimen name="slidingmenu_margin_left">15dp</dimen>
+    
+    <!-- cropview -->
+    <dimen name="crop_boarder_size">3dp</dimen>
+    <dimen name="crop_boarder_point_size">10dp</dimen>
+    <dimen name="crop_side_area">25dp</dimen>
+    <!-- randomgame -->
+    <dimen name="rgame_button_text_size">20dp</dimen>
+    <dimen name="rgame_button_height">40dp</dimen>
+    <dimen name="game_team_image_player_height">400dp</dimen><!-- screen width * 1/2 -->
+    <dimen name="dragsidebar_padding_left">180dp</dimen>
+    <dimen name="dragsidebar_title_text_size">24sp</dimen>
+    <dimen name="dragsidebar_radio_text_size">20sp</dimen>
+    <dimen name="dragsidebar_item_margin_top">20dp</dimen>
+    <dimen name="dragsidebar_title_margin_top">20dp</dimen>
+    <dimen name="dragsidebar_padding_hor">50dp</dimen>
+    <dimen name="dragsidebar_btn_margin_top">50dp</dimen>
+    <dimen name="game_team_side_width">30dp</dimen>
+    <dimen name="game_team_turndata_padding_top">20dp</dimen>
+    <dimen name="game_team_turndata_padding_bottom">50dp</dimen>
+    <dimen name="game_team_turndata_title_text_width">60dp</dimen>
+    <dimen name="game_team_turndata_title_edit_width">180dp</dimen>
+    <dimen name="game_team_turndata_item_margin_hor">20dp</dimen>
+    <dimen name="game_team_turndata_item_margin_ver">20dp</dimen>
+    
+    <dimen name="mainview_browser_icon_size">70dp</dimen>
+    <!-- time line -->
+    <dimen name="timeline_indicator_padding">10dp</dimen>
+    <dimen name="timeline_menu_width">120dp</dimen>
+    <dimen name="timeline_menu_top_margin">170dp</dimen>
+    <dimen name="timeline_menu_margin">15dp</dimen>
+    <dimen name="timeline_grid_item_height">190dp</dimen>
+    <dimen name="timeline_grid_item_padding">2dp</dimen>
+    <dimen name="timeline_indicator_text_width">200dp</dimen>
+    <dimen name="timeline_indicator_text_height">60dp</dimen>
+    <dimen name="timeline_indicator_text_margin_left">15dp</dimen>
+    <dimen name="timeline_indicator_text_date_size">25sp</dimen>
+    <dimen name="timeline_indicator_text_num_size">18sp</dimen>
+    <dimen name="timeline_menu_text_size">20sp</dimen>
+    <dimen name="timeline_indicator_height">160dp</dimen>
+    
+    <!-- guide -->
+    <dimen name="guide_line1_left_width">340dp</dimen>
+    <dimen name="guide_line1_left_height">540dp</dimen>
+    <dimen name="guide_line1_right_width">460dp</dimen>
+    <dimen name="guide_line1_right_height">270dp</dimen>
+    <dimen name="guide_line2_square_size">250dp</dimen>
+    <dimen name="guide_line2_right_width">300dp</dimen>
+    <dimen name="guide_line2_right_height">500dp</dimen>
+    <dimen name="guide_line3_width">400dp</dimen>
+    <dimen name="guide_line3_height">240dp</dimen>
+    <dimen name="guide_side_width">30dp</dimen>
+    
+    <!-- surf -->
+    <dimen name="surf_toobar_icon_size">56dp</dimen>
+    <dimen name="surf_toobar_icon_padding">8dp</dimen>
+    <dimen name="surf_toobar_icon_margin">10dp</dimen>
+    <dimen name="surf_gallery_margin_bottom">10dp</dimen>
+    <dimen name="surf_gallery_margin_right">10dp</dimen>
+</resources>

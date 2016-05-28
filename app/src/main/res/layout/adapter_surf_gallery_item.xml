@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <ImageView 
+        android:id="@+id/surf_gallery_item_img"
+        android:layout_width="@dimen/spicture_chooser_item_width"
+        android:layout_height="@dimen/spicture_chooser_item_width"
+        android:scaleType="fitXY"/>
+    <ImageView 
+        android:id="@+id/surf_gallery_item_img_border"
+        android:layout_width="@dimen/spicture_chooser_item_width"
+        android:layout_height="@dimen/spicture_chooser_item_width"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:src="@drawable/surf_guide_border"/>
+</RelativeLayout>

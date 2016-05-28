@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu_sorder_rename"
+        android:title="@string/sorder_rename"/>
+    <item android:id="@+id/menu_sorder_delete"
+        android:title="@string/sorder_delete"/>
+    <item android:id="@+id/menu_sorder_change_tag"
+        android:title="@string/sorder_change_tag"/>
+    <item android:id="@+id/menu_sorder_decipher_as_folder"
+        android:title="@string/sorder_decipher_as_folder"/>
+    <item android:id="@+id/menu_sorder_access_count"
+        android:title="@string/sorder_access_count"/>
+    <item android:id="@+id/menu_sorder_open_by_wall"
+        android:title="@string/openby_wall"/>
+    <item android:id="@+id/menu_sorder_book_view"
+        android:title="@string/menu_book_view"/>
+    <item android:id="@+id/menu_sorder_preview"
+        android:title="@string/sorder_preview"/>
+</menu>

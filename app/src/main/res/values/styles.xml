@@ -1,0 +1,84 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="TransparentDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+ <!-- 设置自定义布局的背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+ <!-- 设置window背景透明，也就是去边框 -->
+    </style>
+    
+    <style name="PreviewDialogAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/sorder_preview_enter</item>  
+        <item name="android:windowExitAnimation">@anim/sorder_preview_exit</item>  
+    </style>
+    
+    <style name="ActionbarIcon">
+        <item name="android:background">@drawable/selector_actionbar_icon_bk</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:padding">@dimen/actionbar_icon_padding</item>
+    </style>
+    
+    <style name="ActionbarTab">
+        <item name="android:background">@drawable/selector_actionbar_icon_bk</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="ActionbarIcon_L">
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:padding">@dimen/actionbar_icon_padding</item>
+    </style>
+    
+    <style name="ActionbarTab_L">
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="ActionbarCloseIcon">
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:paddingTop">@dimen/actionbar_padding</item>
+        <item name="android:paddingBottom">@dimen/actionbar_padding</item>
+    </style>
+    
+    <style name="DrawsCustomDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/dialog_background</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+    
+    <style name="CustomDialogIcon">
+		<item name="android:background">@drawable/selector_custom_dialog_icon_bk</item>
+		<item name="android:padding">5dp</item>
+    </style>
+    
+    <style name="CustomDialogIcon_L">
+		<item name="android:background">@drawable/selector_custom_dialog_icon_bk_l</item>
+		<item name="android:padding">5dp</item>
+    </style>
+    
+</resources>

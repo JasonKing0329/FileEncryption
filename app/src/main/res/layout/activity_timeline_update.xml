@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView
+        android:id="@+id/timeline_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    	android:clipToPadding="false"
+        android:numColumns="4" />
+    <!-- clipToPadding，如果设置了paddingTop或者bottom，可以让padding部分一起滑动 -->
+
+    <RelativeLayout
+        android:id="@+id/timeline_nocontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	    android:visibility="gone" >
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/time_line_nocontent"
+	        android:textColor="@color/darkgrey"
+	        android:layout_centerInParent="true"
+	        android:textSize="25sp"
+	        android:textStyle="bold" />
+
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/timeline_indicator_main"
+        android:layout_width="@dimen/timeline_menu_width"
+        android:layout_height="@dimen/timeline_menu_width"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/timeline_menu_top_margin"
+        android:background="@color/timeline_menu_main_bk"
+        android:gravity="center"
+        android:text="@string/time_line_main"
+        android:textColor="@color/white"
+        android:textSize="@dimen/timeline_menu_text_size"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/timeline_indicator_guide"
+        android:layout_width="@dimen/timeline_menu_width"
+        android:layout_height="@dimen/timeline_menu_width"
+        android:layout_below="@id/timeline_indicator_main"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/timeline_menu_margin"
+        android:background="@color/timeline_menu_main_bk"
+        android:gravity="center"
+        android:text="@string/time_line_guide"
+        android:textColor="@color/white"
+        android:textSize="@dimen/timeline_menu_text_size"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/timeline_indicator_setting"
+        android:layout_width="@dimen/timeline_menu_width"
+        android:layout_height="@dimen/timeline_menu_width"
+        android:layout_below="@id/timeline_indicator_guide"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/timeline_menu_margin"
+        android:background="@color/timeline_menu_main_bk"
+        android:gravity="center"
+        android:text="@string/time_line_setting"
+        android:textColor="@color/white"
+        android:textSize="@dimen/timeline_menu_text_size"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/timeline_indicator_close"
+        android:layout_width="@dimen/timeline_menu_width"
+        android:layout_height="@dimen/timeline_menu_width"
+        android:layout_below="@id/timeline_indicator_setting"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/timeline_menu_margin"
+        android:gravity="center"
+        android:text="@string/time_line_close"
+        android:textColor="@color/white"
+        android:textSize="@dimen/timeline_menu_text_size"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>

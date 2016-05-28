@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="FileManagerBlue" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="actionbar_bk_color">@color/actionbar_bk_blue</item>
+        <item name="actionbar_bk_color_alpha">@color/actionbar_bk_blue_alpha</item>
+        <item name="default_folder">@drawable/default_folder</item>
+        <item name="path_indicator_bk">@drawable/indicator_lightgreen</item>
+        <item name="path_indicator_press">@drawable/indicator_orange</item>
+    </style>
+    
+    <style name="FileManagerGreen" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="actionbar_bk_color">@color/actionbar_bk_green</item>
+        <item name="actionbar_bk_color_alpha">@color/actionbar_bk_green_alpha</item>
+        <item name="default_folder">@drawable/default_folder_lightgreen</item>
+        <item name="path_indicator_bk">@drawable/indicator_blue</item>
+        <item name="path_indicator_press">@drawable/indicator_red</item>
+    </style>
+    
+    <style name="FileManagerLightGreen" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="actionbar_bk_color">@color/actionbar_bk_lightgreen</item>
+        <item name="actionbar_bk_color_alpha">@color/actionbar_bk_lightgreen_alpha</item>
+        <item name="default_folder">@drawable/default_folder_lightgreen</item>
+        <item name="path_indicator_bk">@drawable/indicator_blue</item>
+        <item name="path_indicator_press">@drawable/indicator_red</item>
+    </style>
+    
+    <style name="FileManagerOrange" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="actionbar_bk_color">@color/actionbar_bk_orange</item>
+        <item name="actionbar_bk_color_alpha">@color/actionbar_bk_orange_alpha</item>
+        <item name="default_folder">@drawable/default_folder</item>
+        <item name="path_indicator_bk">@drawable/indicator_blue</item>
+        <item name="path_indicator_press">@drawable/indicator_red</item>
+    </style>
+    
+    <style name="FileManagerDeepBlue" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="actionbar_bk_color">@color/actionbar_bk_deepblue</item>
+        <item name="actionbar_bk_color_alpha">@color/actionbar_bk_deepblue_alpha</item>
+        <item name="default_folder">@drawable/default_folder</item>
+        <item name="path_indicator_bk">@drawable/indicator_purple</item>
+        <item name="path_indicator_press">@drawable/indicator_orange</item>
+    </style>
+    
+    <style name="FileManagerPurple" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="actionbar_bk_color">@color/actionbar_bk_purple</item>
+        <item name="actionbar_bk_color_alpha">@color/actionbar_bk_purple_alpha</item>
+        <item name="default_folder">@drawable/default_folder</item>
+        <item name="path_indicator_bk">@drawable/indicator_blue</item>
+        <item name="path_indicator_press">@drawable/indicator_orange</item>
+    </style>
+    
+</resources>

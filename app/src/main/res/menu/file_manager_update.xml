@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu_mode_switch"
+        android:title="@string/menu_mode_switch"/>
+    
+    <group android:id="@+id/group_file">
+        <item android:id="@+id/menu_encrypt_current_folder"
+            android:title="@string/menu_encrypt_current_folder"/>
+        <item android:id="@+id/menu_decipher_current_folder"
+            android:title="@string/menu_decipher_current_folder"/>
+        <item android:id="@+id/menu_check_all_unencrypted"
+            android:title="@string/menu_check_all_unencrypted"/>
+        <item android:id="@+id/menu_export"
+            android:title="@string/menu_export"/>
+        <item android:id="@+id/menu_import"
+            android:title="@string/menu_load"/>
+        <item android:id="@+id/menu_change_theme"
+            android:title="@string/menu_change_theme"/>
+    </group>
+    
+    <group android:id="@+id/group_sorder"
+        android:visible="false">
+	    <item android:id="@+id/menu_view_grid"
+	        android:title="@string/menu_view_grid"
+	        android:visible="false"/>
+        <item android:id="@+id/menu_view_list"
+            android:title="@string/menu_view_list"/>
+    </group>
+    
+    <group android:id="@+id/group_spicture"
+        android:visible="false">
+        <item android:id="@+id/menu_view_current_folder"
+            android:title="@string/menu_view_current_folder"/>
+        <item android:id="@+id/menu_shuffle_gallery"
+            android:title="@string/menu_shuffle_gallery"/>
+        <item android:id="@+id/menu_order"
+            android:title="@string/menu_order"/>
+        <item android:id="@+id/menu_random_game"
+            android:title="@string/menu_random_game"/>
+        <item android:id="@+id/menu_team_game"
+            android:title="@string/menu_team_game"/>
+        <item android:id="@+id/menu_view_gallery"
+            android:title="@string/menu_view_gallery"/>
+        <item android:id="@+id/menu_rank"
+            android:title="@string/menu_rank"/>
+	    <item android:id="@+id/menu_thumb_waterfall"
+	        android:title="@string/menu_thumb_waterfall"/>
+    </group>
+    
+    <item android:id="@+id/menu_edit"
+        android:title="@string/menu_edit"
+        android:visible="false"/>
+    
+    <item android:id="@+id/menu_exit"
+        android:title="@string/menu_exit"/>
+</menu>

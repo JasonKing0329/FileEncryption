@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu_random_rule"
+        android:title="@string/rgame_menu_rule"/>
+    
+    <item android:id="@+id/menu_random_new"
+        android:title="@string/rgame_menu_new"/>
+    
+    <item android:id="@+id/menu_random_load"
+        android:title="@string/rgame_menu_load"/>
+    
+    <item android:id="@+id/menu_random_saveas"
+        android:title="@string/rgame_menu_saveas"/>
+    
+</menu>

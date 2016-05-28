@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="autoplay_speed_fast">2000</integer>
+    <integer name="autoplay_speed_normal">4000</integer>
+    <integer name="autoplay_speed_slow">6000</integer>
+    <integer name="wall_rows">4</integer>
+    <integer name="tabactionbar_max_icon">3</integer>
+    <integer name="actionbar_max_icon">3</integer>
+    <integer name="sorder_expan_preview">3</integer>
+    <integer name="waterfall_column3_image_size">400</integer>
+    <integer name="waterfall_column2_image_size">500</integer>
+    <integer name="slidingmenu_base_item">7</integer>
+    <integer name="anim_mainview_switch_page">1000</integer>
+    <integer name="preview_column">5</integer>
+    <integer name="preview_row">5</integer>
+    <integer name="rgame_table_text_zoom">8</integer>
+    <integer name="sorder_menudlg_anim_time">400</integer><!-- =1000-600(anim sorder_longclick放大部分后剩下的时间) -->
+    
+</resources>

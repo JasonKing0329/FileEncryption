@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fe="http://schemas.android.com/apk/res/com.king.app.fileencryption"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout 
+        android:id="@+id/mainview_bk_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<com.king.app.fileencryption.slidingmenu.SlidingMenuTwoWay
+    android:id="@+id/mainview_slidingmenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    fe:rightPadding="@dimen/slidingmenu_rightpadding"
+    fe:leftPadding="@dimen/slidingmenu_rightpadding">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+        <LinearLayout 
+            android:id="@+id/mainview_menu_layout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+    		android:background="#0000"/>
+    	<include layout="@layout/mainview_update_l"/>
+        <LinearLayout 
+            android:id="@+id/mainview_menu_layout_right"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+    		android:background="#0000"/>
+    </LinearLayout>
+
+</com.king.app.fileencryption.slidingmenu.SlidingMenuTwoWay>
+</FrameLayout>

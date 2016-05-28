@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="path_indicator_text_size">3dp</dimen>
+    <dimen name="sorder_cover_menu_textSize">3dp</dimen>
+</resources>

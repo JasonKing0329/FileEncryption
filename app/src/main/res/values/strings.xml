@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">FE</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="save">Save</string>
+    <string name="no_content">No content</string>
+    <string name="save_success">Save successfully</string>
+    <!--************************** mainview public **************************-->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="allno">All no</string>
+    <string name="ok">OK</string>
+    <string name="giveup">Give up</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">loading&#8230;</string>
+    <string name="tab_filemanager">File Manage</string>
+    <string name="tab_sorder">SOrder</string>
+    <string name="tab_spicture">SPicture</string>
+    <string name="identity_check">Identity Check</string>
+    <string name="success">Success!</string>
+    <string name="failed">Failed!</string>
+    <string name="warning">Warning</string>
+    <string name="checking">checking&#8230;</string>
+    <string name="restart_need_unlock">Restart application need check identity, after check right, you could reback public mode!</string>
+    <string name="encrypt_check_service_isexist">There are %d files not encrypted, choose ok to encrypt them!</string>
+    <string name="encrypt_check_service_encryptok">Encryption completed!</string>
+    <string name="encrypt_check_service_isnotexist">All files are encrypted!</string>
+
+    <!--************************** error information **************************-->
+    <string name="error_app_root_create_fail">Create application root directory failed!</string>
+    <string name="error_database_create_fail">Create application database failed!</string>
+    <string name="error_app_root_not_exist">Application root directory is not exist!</string>
+    <string name="error_msg_title">Error message</string>
+    
+    <!--************************** login **************************-->
+    <string name="login_user">User</string>
+    <string name="login_pwd">Password</string>
+    <string name="login_pwd_error">error</string>
+    <string name="login_fingerprint">Fingerprint Unlock</string>
+    <string name="login_finger_not_register">Fingerprint has never been registered in device, please register first!</string>
+    
+    <string name="login_loading_text">Service updating&#8230;&#8230;</string>
+    <string name="login_start_service_insert">Start insert file service?</string>
+    <!--************************** mode init **************************-->
+    <string name="mode_init_title">Access Mode</string>
+    <string name="mode_init_next">Next -></string>
+    <string name="mode_init_public">public</string>
+    <string name="mode_init_public_warning">Once you choose public mode, be aware that every operation is no need to check identity. And this mode need password to unlock!!</string>
+    <string name="mode_init_filemanager">file manager</string>
+    <string name="mode_init_filemanager_warning">Once you choose file manager mode, you could only access to the file manager system~~</string>
+    <string name="mode_init_private">private</string>
+    <string name="mode_init_private_warning">Once you choose private mode, every operation is no need to check identity.</string>
+    <string name="mode_init_next_fail">Wrong password, please correct it or change access mode!</string>
+    
+    <!--************************** menu **************************-->
+    <string name="menu_file_create_folder">Create folder</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_random">Casual Look</string>
+    <string name="menu_rank">Rank</string>
+    <string name="menu_order">Order</string>
+    <string name="menu_mode_switch">Switch Mode</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_export">Export data</string>
+    <string name="menu_view_gallery">Gallery View</string>
+    <string name="menu_fullscreen">Full screen</string>
+    <string name="menu_view_grid">Grid View</string>
+    <string name="menu_view_list">List View</string>
+    <string name="menu_view_current_folder">Current Folder</string>
+    <string name="menu_encrypt_current_folder">Encrypt current folder</string>
+    <string name="menu_decipher_current_folder">Decipher current folder</string>
+    <string name="menu_thumb_folder" translatable = "false">Thumb view</string>
+    <string name="menu_book_view" translatable = "false">Book view</string>
+    <string name="menu_create_order">Add new order</string>
+    <string name="menu_by_name">Order by name</string>
+    <string name="menu_by_date">Order by date</string>
+    <string name="menu_shuffle_gallery">Shuffle gallery</string>
+    <string name="menu_random_game">Random game</string>
+    <string name="menu_team_game" translatable="false">Team game</string>
+    <string name="menu_auto_play">Auto-play</string>
+    <string name="menu_stop_auto_play">Stop auto-play</string>
+    <string name="menu_check_all_unencrypted">Check all unencrypted files</string>
+    
+    <string name="menu_thumb_selectall">Select all</string>
+    <string name="menu_thumb_deselectall">Deselect all</string>
+    <string name="menu_load">load</string>
+    <string name="menu_change_theme">Change theme</string>
+    <string name="menu_fullscreen_swipemode">Swipe page mode</string>
+    <string name="menu_wall_scaletype">Change scale type</string>
+    <string name="menu_wall_savewall">Set as default wallpaper</string>
+    <string name="menu_thumb_waterfall">Waterfall view</string>
+    
+    <string name="menu_view_all">View all</string>
+    <string name="menu_cover_single">Single</string>
+    <string name="menu_cover_cascade">Cascade</string>
+    <string name="menu_cover_cascade_rotate">Cascade and rotate</string>
+    <string name="menu_cover_grid">Grid</string>
+    <string name="menu_new_folder">New folder</string>
+    <!--************************** mainview file list **************************-->
+    <string name="filemanager_encrypt">Encrypt</string>
+    <string name="filemanager_decipher">Decipher</string>
+    <string name="filemanager_delete">Delete</string>
+    <string name="filelist_tag_name">File Name</string>
+    <string name="filelist_tag_time">Last Modified</string>
+    <string name="filelist_tag_wh">Image Size</string>
+    <string name="filelist_parent">..parent directory</string>
+    <string name="filelist_radio_all">All</string>
+    <string name="filelist_radio_encrypted">encrypted</string>
+    <string name="filelist_radio_unencrypted">unencrypted</string>
+    <string name="filelist_delete">delete</string>
+    <string name="filelist_delete_msg">Are you sure to delete?</string>
+    <string name="filelist_delete_empty_folder">This is an empty folder, are you sure to delete?</string>
+    <string name="filelist_delete_folder">This folder includes sub files, are you sure to delete?</string>
+    <string name="filelist_delete_fodler_deny">This folder includes more than 10 files or sub folders, you should not delete it!</string>
+    <string name="filelist_encrypt_fail">Encrypt file failed!</string>
+    <string name="filelist_decipher_fail">Decipher file failed!</string>
+    <string name="filelist_folder_already_exist">Folder is already exist, please input another folder name.</string>
+    
+    <string name="load_from_warning_msg">Selected database will cover default database, sure to continue?</string>
+    
+    <string name="folderdlg_moving">Moving, %d completed&#8230;</string>
+    <string name="folderdlg_option_rule1">Follow by application rule, couldn\' place image at folder which includes sub-folders!</string>
+    <string name="folderdlg_alreadyexist">Target folder is already exist!</string>
+    <!--************************** mainview spicture **************************-->
+    <string name="spicture_myorders">My orders</string>
+    <string name="spicture_myorders_noorder">Have not create an order.</string>
+    <string name="spicture_myorders_add_ok">Add to order \'%s\' successfully!</string>
+    <string name="spicture_myorders_add_fail">Failed to add to order \'%s\'!</string>
+    <string name="spicture_myorders_set_cover_ok">Set cover for order \'%s\' successfully!</string>
+    <string name="spicture_myorders_set_cover_fail">Failed to Set cover for order \'%s\'!</string>
+    <string name="spicture_myorders_delete_item_ok">Delete item from order \'%s\' successfully!</string>
+    <string name="spicture_myorders_item_exist">Item is already exist in order \'%s\', are you sure to add a same item?</string>
+    <string name="spicture_details">Details</string>
+    <string name="spicture_details_fname">[File name] </string>
+    <string name="spicture_details_oname">[Origin name] </string>
+    <string name="spicture_details_fpath">[File path] </string>
+    <string name="spicture_details_wh">[Image size] </string>
+    <string name="spicture_autoplay_tooless">Didn\'t support auto-play cause current pictures are less than %d!</string>
+    <string name="spicture_autoplay_time">Set auto-play time(ms)</string>
+    <string name="spicture_autoplay_finish">Current gallery play finished!</string>
+    <string name="spicture_fullscreen_not_support">Full screen is not supported in current show mode!</string>
+    
+    <!--************************** mainview sorder **************************-->
+    <string name="sorder_delete_fail">Delete failed!</string>
+    <string name="sorder_rename_fail">Rename failed!</string>
+    <string name="sorder_success">Successful!</string>
+    <string name="sorder_create_fail">Create failed!</string>
+    <string name="sorder_name_already_exist">Error : The name is already exist!</string>
+    <string name="sorder_warning_delete">Order is not empty, are you sure to delete?</string>
+    
+    <string name="add_to_order">Add to order</string>
+    <string name="set_as_cover">Set as cover</string>
+    <string name="view_details">View details</string>
+    <string name="move_to_folder">Move to folder</string>
+    <string name="delete_from_order">Delete from order</string>
+    <string name="sorder_delete">Delete</string>
+    <string name="sorder_no_tag">No tag!</string>
+    <string name="sorder_new_tag">+ new tag</string>
+    <string name="sorder_only_new_tag">only add tag</string>
+    <string name="sorder_tag_already_exist">Tag is already exist!</string>
+    <string name="sorder_order_already_exist">Order is already exist!</string>
+    <string name="sorder_create_order">Create order</string>
+    <string name="sorder_rename">Rename</string>
+    <string name="sorder_preview">Preview</string>
+    <string name="sorder_access_count">View access count</string>
+    <string name="openby_wall">Open by wall gallery</string>
+    <string name="sorder_change_tag">Change tag</string>
+    <string name="sorder_delete_tag_warning">Current tag includes more than 1 orders, need confirm 3 times to make sure! Need %d more confirms.</string>
+    <string name="sorder_decipher_as_folder">Decipher as folder</string>
+    <string name="input_no_null">Input can\'t be null!</string>
+    <string name="sorder_next_page">Next page</string>
+    <string name="sorder_previous_page">Previous page</string>
+    <string name="tag">Tag</string>
+    <string name="new_order_name">New order name</string>
+    <!--************************** sorder chooser **************************-->
+    <string name="priority_set">Set priority</string>
+    <string name="priority_cancel">Cancel priority</string>
+    <string name="priority_increase">Increase priority</string>
+    <string name="priority_decrease">Decrease priority</string>
+    <!--**************************  random game **************************-->
+    <string name="rgame_menu_rule">Set rule</string>
+    <string name="rgame_menu_new">New</string>
+    <string name="rgame_menu_load">Load</string>
+    <string name="rgame_menu_saveas">Save as</string>
+    <string name="rgame_select_order">Select order</string>
+    <string name="rgame_start">Start</string>
+    <string name="rgame_stop">Stop</string>
+    <string name="rgame_continue">Continue</string>
+    <string name="rgame_auto">Auto</string>
+    <string name="rgame_manual">Manual</string>
+    <string name="rgame_replace">Replace</string>
+    <string name="rgame_followby">Follow by</string>
+    <string name="rgame_random_scene">Random scene</string>
+    <string name="rgame_repeatable">Repeatable</string>
+    <string name="rgame_image_thread_on">Image Thread On</string>
+    <string name="rgame_scene_on">Scene On</string>
+    <string name="rgame_random_number">Random number</string>
+    <string name="rgame_rule_number_null">Please input image number to random.</string>
+    <string name="rgame_rule_setok">Setting rules available!</string>
+    <string name="rgame_restart_circle">Restart one circle</string>
+    <string name="rgame_set_rule_first">Please set random rules first!</string>
+    <string name="rgame_no_random_item">There is no item left!</string>
+    <string name="rgame_img_random_unfinish">Image random process is not yet finished, remain %d.</string>
+    <string name="rgame_check_error_exit">Wrong password, auto exit!</string>
+    
+    <!--************************** setting preference **************************-->
+    <string name="setting_mode">Access mode</string>
+    <string name="setting_enable_fingerprint">Enable fingerprint identify</string>
+    <string name="setting_enable_private">Enable private mode</string>
+    <string name="setting_start_view">Start view</string>
+    <string name="setting_show_oriname">Show original name</string>
+    <string name="setting_show_oriname_summary">All encrypted file will display the original name.</string>
+    <string name="setting_open_random">Open by random</string>
+    <string name="setting_open_random_summary">Gallery will display picture items by random order.</string>
+    <string name="setting_edit_casual_number">Casual look number</string>
+    <string name="setting_edit_casual_number_summary">Change total pictures in gallery after choose casual look.</string>
+    <string name="setting_show_animation">Show animation</string>
+    <string name="setting_min_items">Minimum picture number</string>
+    <string name="setting_min_items_summary">The gallery need include at least this number, then the auto-play function will be supported.</string>
+    <string name="setting_auto_play_speed">Speed</string>
+    <string name="setting_auto_play_mode">Play mode</string>
+    <string name="setting_sorder_mode">Show order</string>
+    <string name="setting_sorder_mode_summary">Decide the order when load the SOrder page.</string>
+    <string name="setting_sorder_enable_page">Enable page mode.</string>
+    <string name="setting_sorder_set_page_numbers">Set item numbers per page.</string>
+    <string name="setting_sorder_cover_cascade_num">Cascade cover numbers</string>
+    <string name="setting_waterfall">Waterfall view</string>
+    <string name="setting_waterfall_colnumber">Column in portrait</string>
+    <string name="setting_waterfall_colnumber_hor">Column in landscape</string>
+    <string name="setting_slidingmenu">Sliding menu</string>
+    <string name="setting_slidingmenu_mode">Position mode</string>
+    <string name="setting_slidingmenu_left">Menu at left</string>
+    <string name="setting_slidingmenu_right">Menu at right</string>
+    <string name="setting_slidingmenu_twoway">Menu at two side</string>
+    <string name="setas_menubk_land_left">Menu at land-left</string>
+    <string name="setas_menubk_land_right">Menu at land-right</string>
+    <string name="setting_slidingmenu_enable">Enable in main view</string>
+    <string name="setting_start_view_classic">Classic</string>
+    <string name="setting_start_view_guide">Guide</string>
+    <string name="setting_start_view_timeline">Timeline</string>
+
+    <string name="login_finger_not_support">Fingerprint is not supported on current device!</string>
+    <!--************************** thumb folder **************************-->
+    <string name="thumb_folder_warning_delete">Sure to delete selected %d items?</string>
+    <string name="thumb_folder_allfolder">All folder</string>
+    <string name="thumb_folder_allolder">All older</string>
+    <string name="crop_area_error">Please adjust crop area!</string>
+    <string name="move_src_to_src">Target path is same with origin path, couldn\'t support to move: </string>
+    <!--************************** full screen **************************-->
+    <string name="fullscreen_setting_random_repeat">Random repeatedly</string>
+    <string name="fullscreen_setting_sequence">Sequence</string>
+    <string name="fullscreen_setting_random">Random</string>
+    <!--************************** wall **************************-->
+    <string name="wall_wallgallery">Wall gallery</string>
+    <string name="wall_show_file_name">Show file name</string>
+    <string name="wall_image_fitxy">fit XY</string>
+    <string name="wall_image_centrecrop">center crop</string>
+    <string name="wall_image_origin">origin</string>
+    
+    <!--************************** showimagedialog **************************-->
+    <string name="showimage_zoom_origin">Origin size</string>
+    <string name="showimage_zoom_1">1.5 times</string>
+    <string name="showimage_zoom_2">2 times</string>
+    <string name="showimage_zoom_3">2.5 times</string>
+    <string name="showimage_zoom_4">3 times</string>
+    <!--************************** team game **************************-->
+    <string name="team_game_title_order">Click random view</string>
+    <string name="team_game_item_order_random">Process random</string>
+    <string name="team_game_item_order_change">Change order</string>
+    <string name="team_game_title_afterrandom">After random</string>
+    <string name="team_game_item_afterrandom_wait">Wait</string>
+    <string name="team_game_item_afterrandom_filltitle">Fill title</string>
+    <string name="team_game_item_afterrandom_filldata">Fill data</string>
+    <string name="team_game_title_title">Click table title</string>
+    <string name="team_game_item_title_edit">Edit</string>
+    <string name="team_game_item_title_tm">As team member</string>
+    <string name="team_game_item_title_ne">No effect</string>
+    <string name="team_game_title_data">Click table data</string>
+    <string name="team_game_item_data_edit">Edit</string>
+    <string name="team_game_item_data_show">Show</string>
+    <string name="team_game_item_data_ne">No effect</string>
+    <string name="team_game_btn_reset1">Reset order 1</string>
+    <string name="team_game_btn_reset2">Reset order 2</string>
+    <string name="team_game_btn_new">New</string>
+    <string name="team_game_btn_save">Save</string>
+    <string name="team_game_btn_saveas">Save as</string>
+    <string name="team_game_btn_load">Load</string>
+    <string name="team_game_btn_turn">Trun to Random Game data</string>
+    <string name="team_game_msg_warning_save">Save or not?</string>
+    <string name="team_game_turndata_title">Title</string>
+    <string name="team_game_turndata_file">File name</string>
+    <string name="team_game_turndata_success">Turn data successfully!</string>
+    <!--************************** time line **************************-->
+    <string name="time_line_main">Main</string>
+    <string name="time_line_guide">Guide</string>
+    <string name="time_line_setting">Setting</string>
+    <string name="time_line_close">Close</string>
+    <string name="time_line_nocontent">No data~</string>
+    <!--************************** guide **************************-->
+    <string name="guide_timeline">Time Line</string>
+    <!--************************** colorpicker **************************-->
+    <string name="colorpicker_update_success">Update successfully</string>
+    <string name="colorpicker_update_failed">Update failed</string>
+    
+    <!--************************** surf **************************-->
+    <string name="surf_delete_success">Delete successfully</string>
+    <string name="surf_delete_fail">Delete failed</string>
+    <string name="surf_seize_not_support">Gif image is not supported to seize</string>
+</resources>

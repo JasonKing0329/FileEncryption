@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="wall_rows">2</integer>
+    <integer name="tabactionbar_max_icon">3</integer>
+    <integer name="actionbar_max_icon">5</integer>
+    <integer name="slidingmenu_base_item">5</integer>
+</resources>

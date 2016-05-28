@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingTop="@dimen/saveas_margin_top"
+    android:paddingBottom="@dimen/saveas_margin_bottom"
+    android:paddingLeft="@dimen/saveas_margin_hor"
+    android:paddingRight="@dimen/saveas_margin_hor">
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical" >
+	    <Spinner 
+	        android:id="@+id/saveas_path"
+		    android:layout_width="@dimen/saveas_spinner_width"
+		    android:layout_height="wrap_content"/>
+	    <ImageView 
+	        android:id="@+id/saveas_path_browse"
+		    android:layout_width="@dimen/saveas_browse_icon_size"
+		    android:layout_height="@dimen/saveas_browse_icon_size"
+		    android:padding="@dimen/saveas_browse_icon_padding"
+		    android:src="@drawable/saveas_path_browse"
+		    android:scaleType="fitCenter"/>
+	</LinearLayout>
+	<EditText
+	    android:id="@+id/saveas_filename"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="@dimen/saveas_edit_margin_top"
+	    android:orientation="horizontal"
+	    android:layout_marginRight="@dimen/saveas_browse_icon_padding"
+	    android:singleLine="true"
+	    android:hint="@string/saveas_filename" />
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="@dimen/saveas_action_margin_top"
+	    android:gravity="right" >
+	    <TextView 
+		    android:id="@+id/saveas_ok"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:paddingTop="15dp"
+		    android:paddingBottom="15dp"
+		    android:text="@string/ok"
+		    android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="@color/dlg_action_text"
+		    android:gravity="center"/>
+	    <TextView 
+		    android:id="@+id/saveas_cancel"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:text="@string/cancel"
+		    android:paddingTop="15dp"
+		    android:paddingBottom="15dp"
+		    android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="@color/dlg_action_text"
+		    android:gravity="center"/>
+	</LinearLayout>
+
+</LinearLayout>

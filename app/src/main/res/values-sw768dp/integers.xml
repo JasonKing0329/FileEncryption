@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="wall_rows">4</integer>
+    <integer name="tabactionbar_max_icon">5</integer>
+    <integer name="actionbar_max_icon">5</integer>
+    <integer name="sorder_expan_preview">5</integer>
+</resources>

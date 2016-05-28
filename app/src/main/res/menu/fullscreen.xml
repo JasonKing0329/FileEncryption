@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu_fullscreen_setascover"
+        android:title="@string/set_as_cover"/>
+    
+    <item android:id="@+id/menu_slidingmenu_left"
+        android:title="@string/setting_slidingmenu_left"/>
+    <item android:id="@+id/menu_slidingmenu_right"
+        android:title="@string/setting_slidingmenu_right"/>
+    <item android:id="@+id/menu_slidingmenu_left_land"
+        android:title="@string/setas_menubk_land_left"/>
+    <item android:id="@+id/menu_slidingmenu_right_land"
+        android:title="@string/setas_menubk_land_right"/>
+    
+    <item android:id="@+id/menu_fullscreen_swipemode"
+        android:title="@string/menu_fullscreen_swipemode"/>
+    
+</menu>

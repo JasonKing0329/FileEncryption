@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- file list  -->
+    <dimen name="filelist_text_size">12sp</dimen>
+    <dimen name="filelist_vertical_distance">5dp</dimen>
+    
+    <!-- image size  -->
+    <dimen name="spicture_chooser_item_width">150px</dimen>
+    <dimen name="spicture_chooser_view_width">600px</dimen>
+    <dimen name="spicture_chooser_view_height">800px</dimen>
+    
+    <!-- login  -->
+    <dimen name="login_user_text_width">100dp</dimen>
+    <dimen name="login_user_edit_width">200dp</dimen>
+    <dimen name="login_ok_width">300dp</dimen>
+    <dimen name="login_first_marginTop">100dp</dimen>
+    <dimen name="login_row_marginLeft">10dp</dimen>
+    
+    <!-- mode init  -->
+    <dimen name="mode_init_next_padding">7dp</dimen>
+    <dimen name="mode_init_next_width">200dp</dimen>
+    <dimen name="mode_init_next_size">20sp</dimen>
+    <dimen name="mode_init_title_size">30sp</dimen>
+    <dimen name="mode_init_firstradio_marginTop">30dp</dimen>
+    <dimen name="mode_init_radio_marginTop">10dp</dimen>
+    <dimen name="mode_init_title_marginTop">50dp</dimen>
+    <dimen name="mode_init_hide_marginTop">20dp</dimen>
+    
+    <dimen name="actionbar_icon_max_width">250dp</dimen><!-- actionbar_icon_width * 5 -->
+    <dimen name="tabactionbar_icon_max_width">150dp</dimen><!-- actionbar_icon_width * 3 -->
+    
+    <dimen name="slidingmenu_rightpadding">300dp</dimen>
+</resources>

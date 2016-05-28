@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="save_success">添加成功</string>
+    <string name="saveas_filename">文件名称</string>
+    <string name="saveas_no_content">无内容</string>
+    <string name="saveas_select_path">选择路径</string>
+    <string name="saveas_title">保存</string>
+    <string name="saveas_title_notnull">名称不能为空</string>
+    <string name="folderselect_new">新建文件夹</string>
+    <string name="folderselect_folder_exist">目标目录已存在</string>
+</resources>
